@@ -4,7 +4,7 @@ import "./styles.css";
 if (document.readyState !== "loading") {
   ButtonFunctions();
 } else {
-  document.addEventListener("DOMContainerloaded", function () {
+  document.addEventListener("DOMContentloaded", function () {
     ButtonFunctions();
   });
 }
