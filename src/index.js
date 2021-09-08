@@ -25,8 +25,8 @@ function ButtonFunctions() {
     let newListItem = document.createElement("li");
 
     //adding comment to new list item value
-    newListItem.innerHTML = commentText.value;
-
+    //newListItem.innerHTML = commentText.value;
+    newListItem.appendChild(document.createTextNode(commentText.value));
     //clearing the comment area
     commentText.value = "";
 
